@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag":  "concatenation",
+      "patterns": [
+        "concatenation",
+        "string concatenation?"
+      ],
+      "responses": [
+        "IF YOU WANT TO CONCATENATE a string, you may use Addition Operator (+)",
+        "String A = 'Apple';\nString B ='Banana';\nString C = A + B;\n\nOUTPUT:\nAppleBanana",
+        "The concat() method appends (concatenate) a string to the end of another string.",
+        "In Java, String concatenation forms a new String that is the combination of multiple strings. There are two ways to concatenate strings in Java:\n\t\\nBy + (String concatenation) operator\n    \t\nBy concat() method"
+      ]
+    },
+    {
+      "tag":  "string",
+      "patterns": [
+        "string",
+        "str",
+        "string categories",
+        "string variables"
+      ],
+      "responses": [
+        "Strings are defined as an array of characters.",
+        "String is a sequence of characters. But in Java, string is an object that represents a sequence of characters.",
+        "Strings are used for storing text."
+      ]
+    },
+    {
+      "tag":  "introduction",
+      "patterns": [
+        "java",
+        "jav"
+      ],
+      "responses": [
+        "Java is a popular programming language, created in 1995.\nIt, is owned by Oracle, and more than 3 billion devices run Java.\n\nIt, is used for:\n\nMobile, applications (specially Android apps\nDesktop, applications\nWeb, applications\nWeb, servers and application servers\nGames, \nDatabase, connection\nAnd much, much more!",
+        "Java is a programming language and a platform. \nJava is a high level, robust, object-oriented and secure programming language",
+        "Java is popular high-level, class-based object oriented programming language originally developed by Sun Microsystems and released in 1995. Currently Java is owned by Oracle and more than 3 billion devices run Java. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. Java is used to develop numerious types of software applications like Mobile apps, Web apps, Desktop apps, Games and much more",
+        "Developed by Sun Microsystems in 1995, Java is a highly popular, object-oriented programming language. This platform independent programming language is utilized for Android development, web development, artificial intelligence, cloud applications, and much more."
+      ]
+    },
+    {
+      "tag":  "datatypes",
+      "patterns": [
+        "boolean",
+        "bool",
+        "java boolean",
+        "java bool"
+      ],
+      "responses": [
+        "Boolean stores true or false values",
+        "The Boolean data type is used to store only two possible values: true and false. \nThis data type is used for simple flags that track true/false conditions., Boolean data type represents only one bit of information either true or false which is \n intended to represent the two truth values of logic \n and Boolean algebra, but the size of the boolean data type is virtual machine-dependent",
+        "Boolean data type represents one bit of information\n\nThere are only two possible values: true and false\n\nThis data type is used for simple flags that track true/false conditions"
+      ]
+    },
+    {
+      "tag": "integer",
+      "patterns": ["int", "integer"],
+      "responses": [
+        "Integer stores whole numbers from -2,147,483,648 to 2,147,483,647",
+        "It is a 32-bit signed two’s complement integer.",
+        "Int data type is a 32-bit signed two's complement integer.\n\nMinimum value is - 2,147,483,648 (-2^31)\n\nMaximum value is 2,147,483,647(inclusive) (2^31 -1)\n\nInteger is generally used as the default data type for integral values unless there is a concern about memory.\n\nThe default value is 0",
+        "The int data type is a 32-bit signed two's complement integer. \n\\nIts value-range lies between - 2,147,483,648 (-2^31) to 2,147,483,647 (2^31 -1) \n\n(inclusive). Its minimum value is - 2,147,483,648and maximum value is 2,147,483,647. \n\nIts default value is 0."
+      ]
+    },
+    {
+      "tag": "float",
+      "patterns": ["float",  "java float"],
+      "responses": ["Float stores fractional numbers. Sufficient for storing 6 to 7 decimal digits",
+        "The float data type is a single-precision 32-bit IEEE 754 floating-point. \nUse a float (instead of double) if you need to save memory in large arrays of floating-point numbers. \nThe size of the float data type is 4 bytes (32 bits).",
+        "Float data type is a single-precision 32-bit IEEE 754 floating point\n\nFloat is mainly used to save memory in large arrays of floating point numbers\n\nDefault value is 0.0f\n\nFloat data type is never used for precise values such as currency",
+        "The float data type is a single-precision 32-bit IEEE 754 floating point.\n\nIts value range is unlimited. It is recommended to use a float (instead of double) \n\nif you need to save memory in large arrays of floating point numbers. \n\nThe float data type should never be used for precise values, such as currency. \n\nIts default value is 0.0F."]
+    },
+    {
+      "tag": "print",
+      "patterns": [
+        "output",
+        "print"
+      ],
+      "responses": [
+        "Java System.out.println() is used to print an argument that is passed to it.",
+        "use the println() method to print a line of text "
+      ]
+    },
+    {
+      "tag": "char",
+      "patterns": [
+        "character",
+        "char"
+      ],
+      "responses": [
+        "Char stores a single character/letter or ASCII values",
+        "The char data type is used to store characters.",
+        "The char data type is a single 16-bit Unicode character with the size of 2 bytes (16 bits).",
+        "Char data type is a single 16-bit Unicode character.Char data type is used to store any character"
+      ]
+    },
+    {
+      "tag": "userinput",
+      "patterns": [
+        " input in Java",
+        " user input"
+      ],
+      "responses": [
+        "The Scanner class is used to get user input, and it is found in the java.util package.\nTo use the Scanner class, create an object of the class \nand use any of the available methods found in the Scanner class documentation.",
+        "The scanner can read formatted input. It has different functions for different types of data types. \\n\\n The scanner is much easier to read as we don’t have to write throws as there is no exception thrown by it.\nIt was added in later versions of Java\n It contains predefined functions to read an Integer, Character, and other data types as well."
+      ]
+    }
+  ]
+}
